@@ -1,5 +1,8 @@
 ## Welcome to GitHub Pages --UPDATES TO COME
 
+
+This article needs to be at least 1000 words long and will be about Language models. 
+
 You can use the [editor on GitHub](https://github.com/FloCiaglia/cs-hu398-blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
