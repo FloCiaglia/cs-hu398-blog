@@ -27,6 +27,6 @@ In this article, I will give an overview of what language models are, how they a
 - Cite at least 3 relevant papers 
 
 ideas:
-[A beginner’s guide to language models](https://towardsdatascience.com/the-beginners-guide-to-language-models-aa47165b57f9)
-[BERT language model](https://www.techtarget.com/searchenterpriseai/definition/BERT-language-model)
+[A beginner’s guide to language models](https://towardsdatascience.com/the-beginners-guide-to-language-models-aa47165b57f9),
+[BERT language model](https://www.techtarget.com/searchenterpriseai/definition/BERT-language-model),
 [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
