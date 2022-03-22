@@ -1,40 +1,27 @@
-## Welcome to GitHub Pages --UPDATES TO COME
+## An Overview on Language Models
+
+- What is the blogpost about? 
+- What topic will it explore?
+
+In this article, I will give an overview of what language models are, how they are used and their impact on the natural language community. 
+
+### Background
+
+- What does a reader need to know about this topic to get on the writer’s level? 
+- What basic vocabulary does a reader need to have?
 
 
-This article needs to be at least 1000 words long and will be about Language models. 
+### Discussion
 
-You can use the [editor on GitHub](https://github.com/FloCiaglia/cs-hu398-blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- What are the main points that the writer wants the reader to know about this topic?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Conclusion
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Why should a reader care about this topic?
+- What should a reader take away?
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### References 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FloCiaglia/cs-hu398-blog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Cite at least 3 relevant papers 
