@@ -53,3 +53,5 @@ Here’s the list of the wonderfully helpful articles I used as sources for my o
 - [A beginner’s guide to language models](https://towardsdatascience.com/the-beginners-guide-to-language-models-aa47165b57f9),
 - [BERT language model](https://www.techtarget.com/searchenterpriseai/definition/BERT-language-model),
 - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
+- [Implement n-gram counting](https://www.ee.columbia.edu/~stanchen/e6884/labs/lab3/x43.html)
+- [Neural Networks](https://www.ibm.com/cloud/learn/neural-networks)
