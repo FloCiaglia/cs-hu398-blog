@@ -1,14 +1,15 @@
 ## An Overview on Language Models
 
-- What is the blogpost about? 
-- What topic will it explore?
+Have you ever wondered how your phone knows what word you’re about to type before you actually type it? Are these devices reading our minds now? Fortunately, not yet. 
 
-In this article, I will give an overview of what language models are, how they are used and their impact on the natural language community. 
-
+Our phones have technology embedded in them that uses probability distribution, also known as fancy math, on words to predict what word best fits the sentence that you have already partially typed. These are known as language models. Although it is a relatively new technology, many different kinds of language models have been created in the past few years. In this article, I intent to explore what language models are, how they are used and how they have impacted the natural language processing community.
+ 
 ### Background
 
-- What does a reader need to know about this topic to get on the writer’s level? 
-- What basic vocabulary does a reader need to have?
+As our devices get smarter, people, especially who’s not so familiar with computer science, might think that they are starting to gain actual abilities. What we need to keep in mind is that computers are dumb pieces of hardware, and able to perform all the tasks that they do through mathematical computations. So, the first question we need to pose is “How do they work?”.
+Language models can be used for several different tasks such as question answering, speech recognition, sentence completion, grammar checkers, machine translation, etc. However, for the purpose of this article, I will base my examples on sentence completion in order to answer our question at the top. 
+
+Sentence completion language models can be created by simply using probability equations like the one below. 
 
 
 ### Discussion
