@@ -55,3 +55,4 @@ Here’s the list of the wonderfully helpful articles I used as sources for my o
 - [10 Leading Language Models For NLP In 2021](https://www.topbots.com/leading-nlp-language-models-2020/)
 - [Implement n-gram counting](https://www.ee.columbia.edu/~stanchen/e6884/labs/lab3/x43.html)
 - [Neural Networks](https://www.ibm.com/cloud/learn/neural-networks)
+- [Transformers](https://towardsdatascience.com/transformers-89034557de14)
