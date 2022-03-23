@@ -33,18 +33,19 @@ Image courtesy of [ibm.com](https://www.ibm.com/cloud/learn/neural-networks).
 
 Neural networks overcome the probabilistic model performance issues by being able to consider all the previous words when choosing the next word without impacting performance especially when using recurrent neural networks. A recurrent neural network is just a special kind of neural network with a keen ability to remember sequences from the input they received, which is why they are mainly used to make predictions on what’s coming next in the sequence.
 Although, recurrent neural networks reach state-of-the-art results in sentence completion tasks, there is one more technique used to address sentence completion that I want to explore: transformers. 
-Transformers made their way into the natural language community only a few years ago when Google published the [Attention is all you need](https://arxiv.org/abs/1706.03762) paper. 
+Transformers made their way into the natural language community only a few years ago when Google published the [Attention is all you need](https://arxiv.org/abs/1706.03762) paperin 2017 and they revolutionized the field. This approach overcomes the n-word dependency problem that the probabilistic approach had by using attention. Attention is rather complex mechanism used to provide context (by putting its attention on) for any position in the input data. For example, when we input a sentence, a transformer won’t process each word sequentially start from the first and ending on the last, it will instead pay more attention to the words that confer more meaning to the overall sentence. This also allows transformers to be trained faster than recurrent neural networks. As a consequence of the training time being shorter, transformers can be trained on a larger dataset than ever. Put simply, a transformer includes a encoder which takes care of reading the text input and a decoder which produces the prediction for the next word. 
+Two of the leading pretrained transformer-based models are [BERT]( https://arxiv.org/abs/1810.04805) and [GPT]( https://arxiv.org/abs/2005.14165). 
+
+#### BERT
+BERT stands for Bidirectional Encoder Representations from Transformers. The main difference between a normal transformer and BERT is that the first will ingest the data 
+both from the beginning to the end and from the end to the beginning. It looks at it in a bidirectional way. This allows it to learn the context of the words based on both left and right surroundings. 
+
+#### GPT
+GPT stands for Generative Pre-trained Transformer. The GPT model was specifically created for text-generation tasks reached incredible state-of-the-art results for writing entire texts exactly like humans would do. 
 
 
-### Discussion
+My hope is that this article served as a good introduction to language models to people who don’t have a thorough computer science background. I tried to keep it simple while exploring complex machine learning concepts. We went over what language models are and what they are used for, and then we delved into how some of the different model architecture work for a simple sentence completion task. 
 
-- What are the main points that the writer wants the reader to know about this topic?
-
-
-### Conclusion
-
-- Why should a reader care about this topic?
-- What should a reader take away?
 
 
 ### References 
