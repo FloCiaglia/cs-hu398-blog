@@ -1,1 +1,1 @@
-Blog's word count:  
+Blog's word count: 1177
