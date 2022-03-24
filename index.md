@@ -51,6 +51,8 @@ BERT stands for Bidirectional Encoder Representations from Transformers. The mai
 #### GPT
 GPT stands for Generative Pre-trained Transformer. The GPT model was specifically created for text-generation tasks reached incredible state-of-the-art results for writing entire texts exactly like humans would do. The GPT model is trained on 175 billion parameters and is 10x more than previous models. It has reached extraordinary performances for tasks like machine translation, question answering, and unscrambling words. 
 
+
+#### Final thoughts
 The NLP community has been completely revolutionized by these technologies achieving newest state-of-the-art results in all the main sub-fields. The GPT-3 models generates text that is difficult to distinguish from that written by humans, and the BERT model has introduced a whole new level of language understanding in machines thanks to its ability to interepret the meaning of a word considering both neighborinig words. We'll soon see new, more performant architectures, however until then, transformers will keep pushing the NLP now-known limits. 
 
 My hope is that this article served as an introduction to language models to people who don’t have a thorough computer science background. I tried to keep it simple while exploring complex machine learning concepts. We went over what language models are and what some of their architectures look like. Finally, we briefly explained how these newest technologies transformed the NLP community. 
