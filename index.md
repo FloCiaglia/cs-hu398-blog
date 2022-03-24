@@ -4,12 +4,12 @@ Have you ever wondered how your phone knows what word you’re about to type bef
 
 Our devices have technology embedded in them that uses probability distribution, also known as fancy math, on the words you have already typed to predict what word best fits your sentence. These are known as language models. Although it is a relatively new technology, many different kinds of language models have been created in the past few decades. In this article, I intent to explore what language models are, how they work and how they have impacted the natural language processing (NLP) community.
 
-As our devices get smarter, people, especially who’s not so familiar with computer science, might think that they are starting to gain human-like abilities. What we need to keep in mind is that computers are dumb pieces of hardware, and are able to perform all the tasks that they do through mathematical computations. So, the first questions we need to pose is “How do they work?”, "What's the math behind it?".
+As our devices get smarter, people, especially who’s not so familiar with computer science, might think that they are starting to gain human-like abilities. What we need to keep in mind is that computers are dumb pieces of hardware and are able to perform all the tasks that they do through mathematical computations. So, the first questions we need to pose is “How do they work?”, "What's the math behind it?".
  
 #### Probabilistic language models
 
 Language models can be created by simply using probability as portrayed in the images below. 
-*Side note* Language models can be used for several different tasks such as question answering, speech recognition, sentence completion, grammar checkers, machine translation, etc. However, in order to explain probability based models, I will base my example on sentence completion. 
+*Side note* Language models can be used for several different tasks such as question answering, speech recognition, sentence completion, grammar checkers, machine translation, etc. However, in order to explain probability-based models, I will base my example on sentence completion. 
 
 In this first image, we define our corpus (the words that compose our text).
 ![here](corpus.png)
@@ -41,7 +41,7 @@ Although, recurrent neural networks reach state-of-the-art results in sentence c
 
 #### Transformers 
 
-Transformers made their way into the natural language community only a few years ago when Google published the [Attention is all you need](https://arxiv.org/abs/1706.03762) paper in 2017, and revolutionized the field. This approach overcomes the n-word dependency problem that the probabilistic approach had by using attention. Attention is rather complex mechanism used to provide context (by putting its attention on) for any position in the input data. For example, when we input a sentence, a transformer won’t process each word sequentially starting from the first word and ending on the last word, it will instead pay more attention to the words that confer more meaning to the overall sentence. This allows transformers to be parallelized (used multiple threads while executing) and therefore, making the trained time much shorter than recurrent neural networks. As a consequence of the training time being shorter, transformers can be trained on a larger dataset than ever. A transformer architecture includes an _encoder_ which takes care of reading the input text and a _decoder_ which produces the prediction for the next word. 
+Transformers made their way into the natural language community only a few years ago when Google published the [Attention is all you need](https://arxiv.org/abs/1706.03762) paper in 2017 and revolutionized the field. This approach overcomes the n-word dependency problem that the probabilistic approach had by using attention. Attention is rather complex mechanism used to provide context (by putting its attention on) for any position in the input data. For example, when we input a sentence, a transformer won’t process each word sequentially starting from the first word and ending on the last word, it will instead pay more attention to the words that confer more meaning to the overall sentence. This allows transformers to be parallelized (used multiple threads while executing) and therefore, making the trained time much shorter than recurrent neural networks. As a consequence of the training time being shorter, transformers can be trained on a larger dataset than ever. A transformer architecture includes an _encoder_ which takes care of reading the input text and a _decoder_ which produces the prediction for the next word. 
 
 Two of the leading pretrained transformer-based models are [BERT](https://arxiv.org/abs/1810.04805) and [GPT]( https://arxiv.org/abs/2005.14165). 
 
@@ -53,7 +53,7 @@ GPT stands for Generative Pre-trained Transformer. The GPT model was specificall
 
 
 #### Final thoughts
-The NLP community has been completely revolutionized by these technologies achieving newest state-of-the-art results in all the main sub-fields. The GPT-3 models generates text that is difficult to distinguish from that written by humans, and the BERT model has introduced a whole new level of language understanding in machines thanks to its ability to interepret the meaning of a word considering both neighborinig words. We'll soon see new, more performant architectures, however until then, transformers will keep pushing the NLP now-known limits. 
+The NLP community has been completely revolutionized by these technologies achieving newest state-of-the-art results in all the main sub-fields. The GPT-3 model generates text that is difficult to distinguish from that written by humans, and the BERT model has introduced a whole new level of language understanding in machines thanks to its ability to interpret the meaning of a word considering both neighboring words. We'll soon see new, more performant architectures, however until then, transformers will keep pushing the NLP now-known limits. 
 
 My hope is that this article served as an introduction to language models to people who don’t have a thorough computer science background. I tried to keep it simple while exploring complex machine learning concepts. We went over what language models are and what some of their architectures look like. Finally, we briefly explained how these newest technologies transformed the NLP community. 
 At least now you know that your phone is not reading your mind :wink:.
