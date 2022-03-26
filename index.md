@@ -2,9 +2,9 @@
 
 Have you ever wondered how your phone knows what word you’re about to type before you actually type it? or how Gmail knows what you want to write in the email to your colleague? Are these devices reading our minds now? Fortunately, not yet. 
 
-Our devices have technology embedded in them that uses probability distribution, also known as fancy math, on the words you have already typed to predict what word best fits your sentence. These are known as language models. Although it is a relatively new technology, many different kinds of language models have been created in the past few decades. In this article, I intent to explore what language models are, how they work and how they have impacted the natural language processing (NLP) community.
+Our devices have technology embedded in them that uses probability distribution, also known as fancy math, on the words you have already typed to predict what word best fits your sentence. These are known as language models. Although it is a relatively new technology, many different kinds of language models have been created in the past few decades. In this article, I intend to explore what language models are, how they work and how they have impacted the natural language processing (NLP) community.
 
-As our devices get smarter, people, especially who’s not so familiar with computer science, might think that they are starting to gain human-like abilities. What we need to keep in mind is that computers are dumb pieces of hardware and are able to perform all the tasks that they do through mathematical computations. So, the first questions we need to pose is “How do they work?”, "What's the math behind it?".
+As our devices get smarter, people, especially those who are not so familiar with computer science, might think that they are starting to gain human-like abilities. What we need to keep in mind is that computers are dumb pieces of hardware and are able to perform all the tasks that they do through mathematical computations. So, the first questions we need to pose is “How do they work?”, "What's the math behind it?".
  
 #### Probabilistic language models
 
@@ -21,7 +21,7 @@ Let’s put in some real words for it to make sense:
 ![](prob-example.png)
 Images courtesy of [exploredatabase.com](https://www.exploredatabase.com/2020/04/bigram-trigram-and-ngram-language-model-in-nlp.html)
 
-Following this probabilistic equation, we can calculate the probability of the word “of” following the word “prime minister”. This is the simpler approach for creating a language model. However, there’s several reasons why this is not the most accurate approach. As we can see, the probability of one word following another is solely based on the preceding n words we are considering. As the text gets more complex, the next word in a sentence might not be directly related to the previous n words making this method not very accurate. This approach is also not ideal performance wise because as the number n increases, the computation gets more expensive. 
+Following this probabilistic equation, we can calculate the probability of the word “of” following the word “prime minister”. This is the simpler approach for creating a language model. However, there are several reasons why this is not the most accurate approach. As we can see, the probability of one word following another is solely based on the preceding n words we are considering. As the text gets more complex, the next word in a sentence might not be directly related to the previous n words making this method not very accurate. This approach is also not ideal performance wise because as the number n increases, the computation gets more expensive. 
 
 
 #### Neural Networks
